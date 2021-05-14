@@ -1,0 +1,30 @@
+{
+  "name": "pontem-types-bundle",
+  "version": "1.0.0",
+  "description": "Bundled types to instantiate the Polkadot JS api with a Pontem network",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npx prettier --write --ignore-path .gitignore '**/*.(yml|js|ts|json)'"
+  },
+  "keywords": [
+    "pontem",
+    "types",
+    "bundle",
+    "polkadot",
+    "api"
+  ],
+  "author": "Pontem",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@polkadot/keyring": "^6.3.1",
+    "@polkadot/types": "^4.9.2",
+    "typescript": "^4.2.4"
+  }
+}
