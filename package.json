@@ -1,12 +1,12 @@
 {
   "name": "pontem-types-bundle",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bundled types to instantiate the Polkadot JS api with a Pontem network",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "prepublish": "tsc",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "prettier": "npx prettier --write '*.{js,jsx,ts,tsx,htm,html,json,xml,yml,css,scss,sass,less,webmanifest,svg}'"
   },
   "keywords": [

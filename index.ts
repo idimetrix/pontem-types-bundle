@@ -5,6 +5,7 @@ export const pontemDefinitions: OverrideBundleDefinition = {
     {
       minmax: [0, undefined],
       types: {
+        AccountInfo: 'AccountInfoWithDualRefCount',
         MoveModuleId: {
           address: 'AccountId',
           name: 'Text',
